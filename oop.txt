@@ -1,1 +1,6 @@
 Object Oriented Programming :
+- Adalah pemrograman berkonsep pada object
+- Object : field/properties/attribute dan method/function/behavior
+- Class  : - Adalah kerangka untuk membentuk object, berisi deklarasi semua properties dan function yang dimiliki Object
+		- Setiap Object selalu dibuat dari class
+		- Class bisa membuat Object tanpa batas
