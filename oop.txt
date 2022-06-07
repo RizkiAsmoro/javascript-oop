@@ -4,3 +4,12 @@ Object Oriented Programming :
 - Class  : - Adalah kerangka untuk membentuk object, berisi deklarasi semua properties dan function yang dimiliki Object
 		- Setiap Object selalu dibuat dari class
 		- Class bisa membuat Object tanpa batas
+
+-- Contoh Class dan Object:
+class_mobil:	-nama
+			-brand
+	| 	   \
+	|	    \
+object_pribadi  object_bus
+- "AVANZA"		-"Trans_Jakarta"
+- "Toyota"		-"Mercedez"
