@@ -37,3 +37,26 @@ alkha.sayHello("Jaka");
 
 console.log(rizki);
 console.log(alkha);
+
+/*
+Parameter di Constructor Function
+Jadi ketika membuat object maka datanya bisa dikirim langsung lewat parameter
+*/
+
+function Cars(brand, type){
+  this.brandName = brand;
+  this.typeName = type;
+  this.launching = function(release){
+    console.info(`Hello ${release}, let me introduce New ${this.typeName} from ${this.brandName}`);
+  }
+}
+
+const toyota = new Cars("Toyota", "Alphard");
+toyota.launching("Customers")
+
+const hyundai = new Cars("Hyundai", "Creeta");
+hyundai.launching("Customers");
+
+// console.log(toyota);
+// console.info(hyundai);
+
