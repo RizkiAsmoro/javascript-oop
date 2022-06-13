@@ -30,3 +30,13 @@ const jaka = new Member ("Jaka", "Tingkir")
 
 console.log(rizki);
 console.log(jaka);
+
+rizki.sayBye();//akses property 
+jaka.sayHello();
+
+/*
+Akses property dari object instance:
+Pertama akan cek apakah object tsb terdapat property atau tidak, jika tidak maka akan di cek ke prototype-nya
+jika masih tidak ada maka akan dicek ke prototype diatasnya sampai berakhir di object prototype
+
+*/
