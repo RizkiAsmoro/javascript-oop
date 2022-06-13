@@ -14,8 +14,11 @@ function Member(firstName){
 
 function GoldMember(firstName, lastName){
     this.lName = lastName;
-    Member.call(this,firstName)
+    Member.call(this,firstName)//memanggil semua isi yang ada di constructor function Member
 }
 const rizki = new GoldMember("Rizki", "Asmoro");
 console.info(rizki);
+const alkha = new Member("Alkha","Leena");//constructor function Member hanya punya firstName jadi yang muncul hanya Alkha
+console.info(alkha);
+
 
