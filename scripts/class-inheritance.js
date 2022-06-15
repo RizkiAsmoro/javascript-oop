@@ -23,7 +23,7 @@ m1.sayHi("Budi")
 const m2 = new goldMember();
 m2.name = "James";
 m2.sayHello("Budi");//memanggil object sayHello di dalam class goldMember
-m1.sayHi("Agus")//memanggil obeject sayHi yang diwarisi dari class Member
+m1.sayHi("Agus")//memanggil object sayHi yang diwarisi dari class Member
 
 console.info(m1);
 console.info(m2); 
