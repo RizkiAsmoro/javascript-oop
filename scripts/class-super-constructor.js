@@ -19,7 +19,7 @@ class Member {
 class goldMember extends Member{//extends : class goldMember jadi class turunan Member
     //constructor dalam goldMember sebagai turunan class Member
     constructor(firtName, lastName){
-        super(firtName);//super : wajib memanggil class parent nya (Member)
+        super(firtName);//super : wajib memanggil class parent nya (Member), firstName adalah parameternya
         this.lname = lastName//parent class sudah ada firstName jadi properti yang ada di parent tidak perlu dideklarasikan
     }
     sayHello(name){
