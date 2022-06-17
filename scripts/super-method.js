@@ -13,7 +13,7 @@ class highSchool{
 
 class middleSchool extends highSchool{
     Student(){
-        super.Teacher();
+        super.Teacher(); //memanngil super method Teacher
         console.info(`This is method Student middleSchool`)
     }
 }
