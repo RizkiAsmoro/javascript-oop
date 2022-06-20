@@ -2,6 +2,7 @@
 Class : Private Field :
 - Secara default saat menambahkan field maka field tsb bisa diakses dimanapun/public
 - Jika ingin private / hanya bisa diakes di dalam class tsb saja maka kata kuncinya adalah # sebelum nama fiel-nya
+- Update EcmaScript dapat diakses di : https://github.com/tc39/proposal-private-methods
 */
 
 class Counter {

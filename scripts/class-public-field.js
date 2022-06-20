@@ -4,6 +4,7 @@ Class : Field Public
 - Bisa diakses dari luar class
 - Cara membuatnya adalah dengan langsung buat nama field-nya dengan value-nya yang selevel sama method
 - Jika tidak memasukan field maka nilainya undefined
+- Update EcmaScript dapat diakses di : https://github.com/tc39/proposal-private-methods
 */
 
 class Customer {
