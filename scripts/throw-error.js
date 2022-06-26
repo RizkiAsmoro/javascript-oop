@@ -8,8 +8,9 @@ Throw Error :
 
 class Math {
     static sum (...numbers){
+        //kondisi jika error
         if (numbers.length === 0){
-            throw new Error("Total parameter harus > 0")
+            throw new Error("Total parameter harus > 0")//melempar error
         }
 
         let total = 0;
