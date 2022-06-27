@@ -4,6 +4,9 @@ Error Handling:
 - Pada block try, jika mencoba mengakses kode program yang bisa menyebabkan error, 
   jika error maka maka block catch akan menangkap error nya
 - Jika tidak terjadi error maka block catch tidak dieksekusi
+Kata Kunci Finaly:
+- di dalam blok program finaly kita tetap bisa melakukan eksekusi kode program setelah try catch selesai 
+walaupun terjadi error ataupun tidak pada try catch 
 */
 
 
@@ -28,6 +31,8 @@ try{
 }catch(error){
     //menangkap error dan tampil pada console
     console.info(`Terjadi Error : ${error.message}`);
+}finally{
+    console.info(`Program selesai`)
 }
 //program tetap berjalan dan kode dibawah akan dieksekusi
 console.info("Asmoro")
