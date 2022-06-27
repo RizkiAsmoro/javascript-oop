@@ -36,3 +36,24 @@ try{
 }
 //program tetap berjalan dan kode dibawah akan dieksekusi
 console.info("Asmoro")
+
+
+
+// Contoh try finaly
+// try bisa digunakan tanpa catch
+console.info(`------try finaly-------`)
+class Counter{
+    #counter = 1; //private
+
+    next(){
+        try{
+            return this.#counter; 
+        }finally{
+            this.#counter++; //walaupun di atas terdapat perintah return tapi karena di blok ini menggunakan finaly maka tetap dieksekusi
+        }
+        }
+}
+const x = new Counter();
+console.info(x.next());
+console.info(x.next());
+console.info(x.next());
